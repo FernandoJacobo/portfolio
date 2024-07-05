@@ -1,0 +1,78 @@
+#app {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: var(--font);
+    font-size: 12px;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 100px);
+}
+
+.color-green {
+    color: var(--green);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--white);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--black);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--black);
+}
+
+.btn-primary {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
+}
+
+.btn-primary:hover,
+.btn-primary:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary.show,
+.btn-primary:first-child:active,
+:not(.btn-primary-check)+.btn-primary:active {
+    background-color: var(--black);
+    border-color: var(--black);
+    color: var(--white);
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.breadcrumb-item {
+    font-size: 15px;
+}
+
+.breadcrumb-item.active {
+    font-weight: bold;
+    color: var(--green);
+}

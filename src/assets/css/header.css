@@ -1,0 +1,38 @@
+.list-group-item {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.list-group-item a {
+    color: var(--black);
+}
+
+.list-group-item a:hover {
+    color: var(--green);
+}
+
+.router-link-active {
+    font-weight: bold;
+    color: var(--green) !important;
+}
+
+.offcanvas {
+    background-color: var(--white);
+}
+
+.offcanvas-footer {
+    padding: 10px;
+}
+
+.offcanvas-footer a {
+    color: var(--black);
+    font-size: 25px;
+}
+
+.offcanvas-footer a:hover {
+    color: var(--green);
+}
