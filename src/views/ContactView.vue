@@ -4,9 +4,9 @@
             <div class="row">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
+                        <router-link :to="{ name: 'home' }" class="breadcrumb-item">
                             Inicio
-                        </li>
+                        </router-link>
                         <li class="breadcrumb-item active" aria-current="page">
                             Información de Contacto
                         </li>
@@ -42,7 +42,7 @@
                                 </div>
 
                                 <div class="ag-courses-item_date-box fw-bold">
-                                    777 835 01 12
+                                    777 835 01 14
                                 </div>
                             </a>
                         </div>

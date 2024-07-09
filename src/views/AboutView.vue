@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 
 const about = ref({
-    description: 'Soy un desarrollador web con experiencia en el diseño, desarrollo y mantenimiento desitios web y aplicaciones web. Me especializo en crear sitios web a medida que satisfacen las necesidades específicas de mis clientes. Poseo sólidas habilidades en lenguajes de programación front-end y back-end, así como experiencia en bases de datos.',
+    description: 'Soy un desarrollador web con experiencia en el diseño, desarrollo y mantenimiento de sitios web y aplicaciones web. Me especializo en crear sitios web a medida que satisfacen las necesidades específicas de mis clientes. Poseo sólidas habilidades en lenguajes de programación front-end y back-end, así como experiencia en bases de datos.',
 });
 
 const education = ref([
@@ -33,9 +33,9 @@ const skills = ref([
             <div class="row">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
+                        <router-link :to="{ name: 'home' }" class="breadcrumb-item">
                             Inicio
-                        </li>
+                        </router-link>
                         <li class="breadcrumb-item active" aria-current="page">
                             Sobre mi
                         </li>

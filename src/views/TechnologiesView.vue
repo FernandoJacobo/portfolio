@@ -56,9 +56,9 @@ const technologies = ref([
             <div class="row">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
+                        <router-link :to="{ name: 'home' }" class="breadcrumb-item">
                             Inicio
-                        </li>
+                        </router-link>
                         <li class="breadcrumb-item active" aria-current="page">
                             Tecnologías
                         </li>

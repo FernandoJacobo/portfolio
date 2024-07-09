@@ -13,7 +13,10 @@
 
                     <p class="mb-0 fs-6">
                         <i class="fa-solid fa-quote-left color-green p-2"></i>
-                        Soy un desarrollador web apasionado por la creación de sitios web dinámicos y atractivos. Con más de 4 años de experiencia en el sector, he desarrollado una sólida base de conocimientos en lenguajes de programación front-end y back-end, así como en marcos de trabajo y herramientas populares.
+                        Soy un desarrollador web apasionado por la creación de sitios web dinámicos y atractivos. Con
+                        más de 4 años de experiencia en el sector, he desarrollado una sólida base de conocimientos en
+                        lenguajes de programación front-end y back-end, así como en marcos de trabajo y herramientas
+                        populares.
                         <i class="fa-solid fa-quote-right color-green p-2"></i>
                     </p>
                 </div>
